@@ -1,0 +1,29 @@
+{
+	"name": "server-1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"express": "^4.18.1",
+		"joi": "^17.6.0",
+		"jsonwebtoken": "^8.5.1",
+		"method-override": "^3.0.0",
+		"mongodb": "^4.7.0",
+		"mongoose": "^6.4.4",
+		"passport": "^0.6.0",
+		"passport-jwt": "^4.0.0",
+		"passport-local": "^1.0.0",
+		"redis": "^4.2.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	}
+}
